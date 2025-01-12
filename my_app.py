@@ -21,8 +21,8 @@ class MainWin(QWidget):
        self.layout_line.addWidget(self.btn_next, alignment = Qt.AlignCenter)         
        self.setLayout(self.layout_line)
    def next_click(self):
+       self.w = TestWin()
        self.hide()
-       self.mw = TestWin()
    def connects(self):
        self.btn_next.clicked.connect(self.next_click)
    def set_appear(self):
