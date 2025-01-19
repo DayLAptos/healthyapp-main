@@ -2,7 +2,7 @@ from PyQt5.QtWidgets import *
 from PyQt5.QtCore import *
 
 from instr import *
-
+from final import FinalWin
 app = QApplication([])
 
 class Experiment():
@@ -122,7 +122,5 @@ class TestWin(QWidget):
         self.btn_test1.clicked.connect(self.timer1Event)
         self.btn_test2.clicked.connect(self.timer2Event)
         self.btn_test3.clicked.connect(self.timer3Event)
-
-
-
+mw.show()
 app.exec_()
