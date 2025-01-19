@@ -31,7 +31,6 @@ class MainWin(QWidget):
        self.move(win_x, win_y)
 
 
-
 app = QApplication([])
 mw = MainWin()
 mw.show()

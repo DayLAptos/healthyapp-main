@@ -84,6 +84,6 @@ class FinalWin(QWidget):
                 return txt_res4
             else:
                 return txt_res5
+                
 app = QApplication([])
-mw = MainWin()
 app.exec_()
