@@ -3,8 +3,7 @@ from PyQt5.QtCore import QTime, QTimer
 from instr import *
 
 
-from instr import *
-from second import *
+
      
 class FinalWin(QWidget):
     def __init__(self, exp):
